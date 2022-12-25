@@ -1,0 +1,89 @@
+.anchor-1{
+    -fx-background-color: #1f1c1c;
+}
+
+.anchor-2{
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #b7b7b4;
+}
+
+.starting-txt{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: white;
+    -fx-border-color: #ffffff;
+    -fx-focus-color: -fx-secondary-color;
+}
+.end-txt{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.date{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-primary-color: #ffd726;
+    -fx-secondary-color: #79ff71;
+    -fx-light-grey-color: #d1d1d1;
+    -fx-focus-color: -fx-secondary-color;
+    -fx-background-color: white;
+    -fx-font-size: 18;
+
+}
+
+.date .arrow-button {
+    -fx-background-color: -fx-primary-color;
+    -fx-background-radius: 20;
+
+}
+.date .arrow-button:hover {
+    -fx-background-color: -fx-secondary-color;
+}
+
+.date .arrow-button .arrow {
+    -fx-background-color: white;
+}
+
+.dropDown {
+    -fx-background-radius: 20;
+
+}
+
+.date .text-field {
+    -fx-text-fill: black;
+    -fx-background-radius: 20;
+    -fx-border-color: transparent;
+}
+
+.searchTrainBtn{
+    -fx-background-color: #ffd726;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+
+}
+.searchTrainBtn:hover {
+    -fx-background-color: linear-gradient(to bottom left, #ffd726, #ffffff);
+
+}
+.booking-btn{
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+}
+.booking-btn:hover{
+    -fx-background-color: linear-gradient(to bottom left, #ffd726, #ffffff);
+}
+
+.about-btn{
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+}
+.about-btn:hover{
+    -fx-background-color: linear-gradient(to bottom left, #ffd726, #ffffff);
+}

@@ -1,0 +1,31 @@
+.anchor-1{
+    -fx-background-color: #1f1c1c;
+}
+
+.anchor-2{
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #ffda22;
+}
+
+.anchor-3{
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #ffda22;
+}
+
+
+
+.home-btn{
+    -fx-background-color: #ffd726;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+}
+
+.home-btn:hover {
+    -fx-background-color: linear-gradient(to bottom left, #ffd726, #ffffff);
+}
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchor-1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="780.0" styleClass="anchor-1" stylesheets="@css/Hime.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkfx.HelloController">
+   <children>
+      <ImageView fx:id="mainWindow" fitHeight="643.0" fitWidth="1130.0" layoutX="-350.0" layoutY="-27.0" opacity="0.19" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/train2.jpg" />
+         </image>
+      </ImageView>
+      <Button id="booking-btn" fx:id="bookOnlineBtn" layoutX="252.0" layoutY="464.0" mnemonicParsing="false" onAction="#bookOnlineBtn" prefHeight="30.0" prefWidth="106.0" styleClass="booking-btn" stylesheets="@css/Hime.css" text="Book Online" />
+      <AnchorPane id="anchor-2" fx:id="formHolder" layoutX="84.0" layoutY="134.0" minHeight="298.0" prefHeight="298.0" prefWidth="604.0" styleClass="anchor-2">
+         <children>
+            <DatePicker id="date" fx:id="datePicker" layoutX="141.0" layoutY="173.0" prefHeight="38.0" prefWidth="317.0" promptText="Select Date " styleClass="date" stylesheets="@css/Hime.css">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </DatePicker>
+            <Button id="searchTrainsBtn" fx:id="searchTrainsBtn" cache="true" layoutX="239.0" layoutY="238.0" mnemonicParsing="false" onAction="#searchTrainsBtnFun" prefHeight="38.0" prefWidth="127.0" styleClass="searchTrainBtn" stylesheets="@css/Hime.css" text="Search for trains" />
+            <TextField id="starting-txt" fx:id="departureStation" layoutX="141.0" layoutY="28.0" onAction="#departureStation" prefHeight="38.0" prefWidth="317.0" promptText="Type Starting Station here" stylesheets="@css/Hime.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="starting-txt" />
+                  <String fx:value="bottom-round" />
+               </styleClass>
+            </TextField>
+            <TextField id="ending-txt" fx:id="arrivalStation" layoutX="141.0" layoutY="101.0" onAction="#arrivalStation" prefHeight="38.0" prefWidth="317.0" promptText="Type Ending Station here" styleClass="end-txt" stylesheets="@css/Hime.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <ListView id="dropDown" fx:id="dropDownStart" layoutX="140.0" layoutY="76.0" prefHeight="200.0" prefWidth="318.0" styleClass="dropDown" stylesheets="@css/Hime.css" visible="false">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </ListView>
+            <ListView id="dropDown" fx:id="dropDownStop" layoutX="140.0" layoutY="148.0" prefHeight="200.0" prefWidth="318.0" styleClass="dropDown" stylesheets="@css/Hime.css" visible="false">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </ListView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="242.0" layoutY="35.0" textFill="WHITE" />
+      <Button id="about-btn" fx:id="aboutBtn" layoutX="404.0" layoutY="464.0" mnemonicParsing="false" onAction="#aboutBtn" prefHeight="30.0" prefWidth="106.0" styleClass="about-btn" stylesheets="@css/Hime.css" text="About Us" />
+      <ImageView fitHeight="123.0" fitWidth="216.0" layoutX="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

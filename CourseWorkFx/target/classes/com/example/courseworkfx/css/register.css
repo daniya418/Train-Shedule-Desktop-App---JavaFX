@@ -1,0 +1,39 @@
+.anchor-1{
+    -fx-background-color: black;
+}
+
+.anchor-2{
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #ffda22;
+}
+
+.user-txt, .pwd-txt, .conpwd-txt{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: white;
+    -fx-border-color: #ffffff;
+    -fx-focus-color: -fx-secondary-color;
+}
+
+.back-btn ,.register-btn {
+    -fx-background-color: transparent;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+    -fx-border-color: #ffd726;
+    -fx-cursor: hand;
+}
+
+.back-btn:hover{
+    -fx-background-color: #ffd726;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+.register-btn:hover{
+    -fx-background-color: #ffd726;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}

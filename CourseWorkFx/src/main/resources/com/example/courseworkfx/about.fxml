@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="anchor-1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="780.0" styleClass="anchor-1" stylesheets="@css/about.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkfx.About">
+   <children>
+      <ImageView fitHeight="554.0" fitWidth="978.0" layoutX="-89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/smoke.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="321.0" layoutY="63.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" text="About Us" wrappingWidth="195.85546875">
+         <font>
+            <Font name="padmaa-Bold.1.1" size="35.0" />
+         </font>
+      </Text>
+      <AnchorPane id="anchor-2" layoutX="255.0" layoutY="266.0" prefHeight="196.0" prefWidth="291.0" styleClass="anchor-2" stylesheets="@css/about.css">
+         <children>
+            <Label layoutX="118.0" layoutY="14.0" text="Our Team" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <Text fill="WHITE" layoutX="8.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Irusha Sansuka - Frontend Developer and UI/UX Designer" />
+            <Text fill="WHITE" layoutX="9.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danilka - UI/UX Designe and Frontend Developer" />
+            <Text fill="WHITE" layoutX="9.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ramees Raafi - GUI and Styling and Documentation" />
+            <Text fill="WHITE" layoutX="8.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arvinth Rukshan - Backend Developer" />
+            <Text fill="WHITE" layoutX="114.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© Received 2022" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="anchor-3" layoutX="39.0" layoutY="97.0" prefHeight="149.0" prefWidth="703.0" styleClass="anchor-3" stylesheets="@css/about.css">
+         <children>
+            <Label id="label-1" layoutX="33.0" layoutY="14.0" prefHeight="114.0" prefWidth="645.0" text="As our team wants to find a practical solution to the train reservation problem in Sri Lanka, We came up with this solution" textFill="#f5f5f5" />
+         </children>
+      </AnchorPane>
+      <Button id="home-btn" fx:id="aHomeBtn" layoutX="344.0" layoutY="476.0" mnemonicParsing="false" onAction="#aHomeBtn" prefHeight="41.0" prefWidth="113.0" styleClass="home-btn" stylesheets="@css/about.css" text="Home" />
+   </children>
+</AnchorPane>
